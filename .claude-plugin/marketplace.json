@@ -1,0 +1,17 @@
+{
+  "name": "dataspoof-ai-security-skills",
+  "owner": {
+    "name": "DataSpoof"
+  },
+  "metadata": {
+    "description": "Portable skills for enterprise AI and application security.",
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "enterprise-ai-security",
+      "source": "./plugins/enterprise-ai-security",
+      "description": "Design, assess, and improve security for enterprise LLM, RAG, and agentic AI systems."
+    }
+  ]
+}

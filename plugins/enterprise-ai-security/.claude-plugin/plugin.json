@@ -1,0 +1,19 @@
+{
+  "name": "enterprise-ai-security",
+  "description": "Enterprise security skill for LLM, RAG, and agentic AI systems.",
+  "version": "1.1.0",
+  "author": {
+    "name": "DataSpoof"
+  },
+  "homepage": "https://github.com/DataSpoof/Enterprise-AI-Security-Skills",
+  "repository": "https://github.com/DataSpoof/Enterprise-AI-Security-Skills",
+  "license": "MIT",
+  "keywords": [
+    "enterprise-security",
+    "llm-security",
+    "rag-security",
+    "agentic-ai",
+    "threat-modeling",
+    "ai-governance"
+  ]
+}

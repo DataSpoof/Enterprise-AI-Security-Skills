@@ -1,0 +1,75 @@
+{
+  "name": "enterprise-ai-security",
+  "version": "1.1.0",
+  "description": "Create security reviews, threat models, control registers, roadmaps, secure designs, incident plans, and authorized test plans for enterprise LLM, RAG, and agentic AI systems.",
+  "domain": "cybersecurity",
+  "subdomain": "enterprise-ai-security",
+  "author": "DataSpoof",
+  "license": "MIT",
+  "tags": [
+    "enterprise-security",
+    "llm-security",
+    "rag-security",
+    "agentic-ai",
+    "threat-modeling",
+    "ai-governance"
+  ],
+  "frameworks": {
+    "owasp": [
+      "GenAI LLM Top 10 2026",
+      "Top 10 for Agentic Applications",
+      "Agent Control Standard"
+    ],
+    "nist": [
+      "AI Risk Management Framework",
+      "Generative AI Profile NIST AI 600-1"
+    ],
+    "mitre": [
+      "ATLAS"
+    ],
+    "google": [
+      "Secure AI Framework SAIF"
+    ],
+    "iso": [
+      "ISO/IEC 27001",
+      "ISO/IEC 42001"
+    ],
+    "cis": [
+      "CIS Controls"
+    ]
+  },
+  "modules": {
+    "references": [
+      "references/advanced-threat-catalog.md",
+      "references/agentic-ai-and-tool-security.md",
+      "references/application-api-and-web-security.md",
+      "references/architecture-and-maturity.md",
+      "references/cloud-network-and-infrastructure-security.md",
+      "references/enterprise-ai-security-baseline.md",
+      "references/frameworks-and-research.md",
+      "references/governance-development-and-testing.md",
+      "references/identity-and-data-security.md",
+      "references/implementation-roadmap.md",
+      "references/llm-security-and-prompt-protection.md",
+      "references/logging-monitoring-and-incident-response.md",
+      "references/model-and-ai-supply-chain-security.md",
+      "references/rag-vector-and-document-security.md",
+      "references/readiness-checklist.md",
+      "references/security-testing-matrix-and-metrics.md"
+    ],
+    "mappings": [
+      "mappings/Google-SAIF.md",
+      "mappings/ISO-and-CIS.md",
+      "mappings/MITRE-ATLAS.md",
+      "mappings/NIST-AI-RMF.md",
+      "mappings/OWASP.md",
+      "mappings/README.md"
+    ],
+    "assets": [
+      "assets/assessment-scope.template.md"
+    ],
+    "scripts": [
+      "scripts/readiness_checklist.py"
+    ]
+  }
+}
